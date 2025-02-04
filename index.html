@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Trabson</title>
+  </head>
+  <header>
+    <div class="container-header">
+      <picture>
+        <img src="imagens/logo2.png" alt="" />
+      </picture>
+    </div>
+  </header>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <form action="" id="f1">
+          <div class="titulo">
+            <h1>CADASTRE SEU LIVRO AQUI!</h1>
+            <h3>DESCUBRA QUANTO TEMPO LEVARÁ EM MÉDIA PARA LER</h3>
+          </div>
+          <label for="nomeLivro">Digite o nome do livro</label>
+          <input
+            type="text"
+            id="nomeLivro"
+            required
+            maxlength="30"
+            placeholder="Nome do livro..."
+          />
+          <label for="paginasLivro">Quantas paginas tem o livro ?</label>
+          <input
+            type="number"
+            id="paginasLivro"
+            required
+            maxlength="5"
+            placeholder="Numero de Páginas..."
+          />
+          <label for="autor">Qual o autor ?</label>
+          <input
+            type="text"
+            id="autor"
+            required
+            maxlength="15"
+            placeholder="Autor..."
+          />
+          <label for="publicadora">Qual a publicadora?</label>
+          <input
+            type="text"
+            id="publicadora"
+            required
+            maxlength="15"
+            placeholder="Publicadora..."
+          />
+          <label for="preco">Digite o preço do livro</label>
+          <input
+            type="number"
+            id="preco"
+            required
+            maxlength="5"
+            placeholder="Preço..."
+          />
+          <label for="tema">Qual o tema ?</label>
+          <select name="cTema" id="tema">
+            <option value="Fantasia">Fantasia</option>
+            <option value="Ficção científica">Ficção científica</option>
+            <option value="Mistério/Policial">Mistério/Policial</option>
+            <option value="Terror">Terror</option>
+            <option value="Biografia/Autobiografia">
+              Biografia/Autobiografia
+            </option>
+            <option value="História">História</option>
+            <option value="Autoajuda">Autoajuda</option>
+            <option value="Ciências sociais">Ciências sociais</option>
+            <option value="romance">romance</option>
+            <option value="Infantil">Infantil</option>
+            <option value="Fantasia juvenil">Fantasia juvenil</option>
+            <option value="Tragédia">Tragédia</option>
+            <option value="Comédia">Comédia</option>
+            <option value="Ação">Ação</option>
+            <option value="Aventura">Aventura</option>
+          </select>
+          <label for="dataLancamento">Data de lançamento</label>
+          <input type="date" id="dataLancamento" required />
+          <div class="botoes">
+            <button type="submit" value="Enviar">CADASTRAR</button>
+            <button onclick="scrollToCadastro()" id="bListar">
+              VER LIVROS CADASTRADOS
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="container-2">
+        <div class="container-titulo">
+          <h1>LIVROS CADASTRADOS</h1>
+        </div>
+        <div class="cadastro">
+          <div class="lista" id="dListar"></div>
+          <hr />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container-footer">
+        <div class="alunos">
+          <h1>ALUNOS</h1>
+          <h2>Gabriel Mendes Santos</h2>
+          <h2>Nickolas Nunes Gonçalves</h2>
+          <h2>Pedro De Paula Lacerda</h2>
+        </div>
+        <div class="tp">
+          <h1>TP - Final</h1>
+          <h1>Programação em MicroInfomática</h1>
+          <h2>PROFº PAULO ROBERTO TAZINAZO CANDIDO</h2>
+        </div>
+        <picture>
+          <h2>APOIO -</h2>
+          <img src="imagens/fatec1.png" alt="" />
+        </picture>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
