@@ -1,51 +1,73 @@
-# Livraria_Cadastro
+# 📚 Livraria_Cadastro
 
-Projeto desenvolvido em grupo por mim e mais 2 colegas da faculdade.  
-Este projeto foi uma entrega acadêmica sobre manipulação do DOM com JavaScript.
+Bem-vindo ao projeto **Livraria_Cadastro**!  
+Este projeto foi desenvolvido em grupo por mim e mais 2 colegas da faculdade como entrega sobre manipulação do DOM com JavaScript.
 
-O site conta com:
-- CSS estilizado totalmente feito à mão (não usei IA);
-- Tela de cadastro de livros que guarda as informações e as mostra ao lado;
-- Opção de editar e excluir os livros já cadastrados.
+✨ **Destaques do projeto:**
+- Cadastro de livros com título, autor e ano;
+- Exibição em tempo real dos livros cadastrados;
+- Opções para editar e excluir livros;
+- Estilo visual totalmente feito à mão com CSS (sem IA).
 
-## Índice
+🌍 **Acesse o site:** [Clique aqui para visitar](COLE_O_LINK_DO_VERCEL_AQUI)
+
+---
+
+## 📋 Índice
 
 - [Visão Geral](#visão-geral)
 - [Instalação](#instalação)
-- [Como usar](#como-usar)
+- [Como Usar](#como-usar)
 - [Tecnologias](#tecnologias)
 - [Autores](#autores)
 
-## Visão Geral
+---
 
-O projeto permite:
-- Cadastrar livros com título, autor e ano;
-- Exibir os livros cadastrados ao lado do formulário;
-- Editar e excluir os livros diretamente na tela.
+## 💡 Visão Geral
 
-Foi desenvolvido como prática de manipulação do DOM no JavaScript e aplicação de CSS puro para estilização.
+O projeto **Livraria_Cadastro** permite:
+- Adicionar livros com seus dados básicos;
+- Visualizar os livros em uma lista ao lado do formulário;
+- Editar ou excluir os livros cadastrados com apenas um clique.
 
-## Instalação
+Foi desenvolvido como prática acadêmica para reforçar conhecimentos de JavaScript no DOM e aplicar CSS manualmente.
+
+---
+
+## ⚙️ Instalação
 
 1. Clone o repositório:
 
 2. Abra o arquivo `index.html` no navegador.
 
-## Como usar
+---
 
-- Preencha os campos de cadastro (título, autor, ano).
-- Clique no botão de cadastrar.
-- Visualize o livro na lista ao lado.
-- Use as opções **Editar** ou **Excluir** para gerenciar os livros.
+## 💻 Como Usar
 
-## Tecnologias
+- Preencha os campos **Título**, **Autor** e **Ano**;
+- Clique em **Cadastrar**;
+- Veja o livro aparecer na lista ao lado;
+- Use os botões **Editar** ou **Excluir** para gerenciar a lista.
+
+---
+
+## 🛠️ Tecnologias
 
 - HTML5
-- CSS3 (estilizado manualmente, sem IA)
+- CSS3 (feito manualmente, sem IA)
 - JavaScript (manipulação do DOM)
 
-## Autores
+---
 
-- Gabriel Mendes Santos — [GitHub](https://github.com/gabrieMS21)
-- Nickolas Gonçalves — [GitHub](https://github.com/NickolasNG)
-- Pedro Lacerda - 
+## 👥 Autores
+
+- Gabriel Mendes Santos — [🌎 GitHub](https://github.com/gabrieMS21)
+- [Nome Colega 1]
+- [Nome Colega 2]
+
+---
+
+## 📚 Fontes consultadas
+
+- SOFTWARE CARPENTRY. Writing Good README Files. Disponível em: <https://software-carpentry.org/blog/2016/06/readme-files.html>. Acesso em: 03 maio 2025.  
+- GITHUB DOCS. About READMEs. Disponível em: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes>. Acesso em: 03 maio 2025.
