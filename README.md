@@ -47,5 +47,5 @@ Foi desenvolvido como prática de manipulação do DOM no JavaScript e aplicaç�
 ## Autores
 
 - Gabriel Mendes Santos — [GitHub](https://github.com/gabrieMS21)
-- Nickolas Gonçalves - [GitHub](https://github.com/NickolasNG)
+- Nickolas Gonçalves — [GitHub](https://github.com/NickolasNG)
 - Pedro Lacerda - 
