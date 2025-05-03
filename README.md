@@ -62,8 +62,8 @@ Foi desenvolvido como prática acadêmica para reforçar conhecimentos de JavaSc
 ## 👥 Autores
 
 - Gabriel Mendes Santos — [🌎 GitHub](https://github.com/gabrieMS21)
-- [Nome Colega 1]
-- [Nome Colega 2]
+- [Nickolas Gonçalves] — [🌎 GitHub](https://github.com/NickolasNG)
+- [Pedro Lacerda]
 
 ---
 
